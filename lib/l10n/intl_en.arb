@@ -1,0 +1,19 @@
+{
+  "@@locale": "en",
+  "appTitle": "Turismo Capachica",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcomeMessage": "Welcome to Turismo Capachica!",
+  "loginButton": "Login",
+  "registerButton": "Register",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "accommodationsTitle": "Accommodations",
+  "experiencesTitle": "Experiences",
+  "messagesTitle": "Messages",
+  "favoritesTitle": "Favorites",
+  "profileTitle": "Profile",
+  "adminDashboardTitle": "Admin Dashboard",
+  "logoutButton": "Logout"
+}

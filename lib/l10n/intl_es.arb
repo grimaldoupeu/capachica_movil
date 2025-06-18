@@ -1,0 +1,16 @@
+{
+  "@@locale": "es",
+  "appTitle": "Turismo Capachica",
+  "welcomeMessage": "¡Bienvenido a Turismo Capachica!",
+  "loginButton": "Iniciar Sesión",
+  "registerButton": "Registrarse",
+  "emailLabel": "Correo Electrónico",
+  "passwordLabel": "Contraseña",
+  "accommodationsTitle": "Alojamientos",
+  "experiencesTitle": "Experiencias",
+  "messagesTitle": "Mensajes",
+  "favoritesTitle": "Favoritos",
+  "profileTitle": "Perfil",
+  "adminDashboardTitle": "Panel de Administración",
+  "logoutButton": "Cerrar Sesión"
+}

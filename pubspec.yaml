@@ -1,5 +1,6 @@
 name: turismo_capachica
 description: A new Flutter project for Turismo Capachica.
+publish_to: 'none'
 version: 1.0.0+1
 
 environment:
@@ -8,19 +9,23 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_bloc: # Normally versioned, e.g. ^8.1.3
-  equatable: # e.g. ^2.0.5
-  flutter_secure_storage: # e.g. ^9.0.0
-  dio: # e.g. ^5.3.3
-  intl: # e.g. ^0.18.1
-  google_maps_flutter: # e.g. ^2.5.0
-  cupertino_icons: # e.g. ^1.0.2
+  flutter_localizations: # Added for localization
+    sdk: flutter         # Added for localization
+  intl: ^0.18.1 # For localization, should have been added earlier
+
+  flutter_bloc: ^8.1.3
+  equatable: ^2.0.5
+  flutter_secure_storage: ^9.0.0
+  dio: ^5.3.3
+  google_maps_flutter: ^2.5.0 # Added in step 1
+  cupertino_icons: ^1.0.2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: # e.g. ^2.0.0
+  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+  generate: true # Ensured for localization
 
